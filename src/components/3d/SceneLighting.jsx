@@ -1,0 +1,1 @@
+export default function SceneLighting({ reducedMotion }) { return <><ambientLight intensity={0.35} /><hemisphereLight args={['#c5f6ff', '#071018', 0.54]} /><pointLight position={[3.4, 3.1, 4.4]} color="#c5f2ff" intensity={reducedMotion ? 10 : 16} distance={10} /><pointLight position={[-3.8, -1.5, 1.2]} color="#287bc6" intensity={reducedMotion ? 4 : 7} distance={9} /></>; }
